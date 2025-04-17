@@ -9,19 +9,19 @@
     "anio": 1493,
     "conquistador": "Cristóbal Colón",
     "region": "Puerto Rico",
-    "evento": "Segundo viaje y exploración de nuevas islas caribeñas."
+    "evento": "Exploración de nuevas islas en su segundo viaje."
   },
   {
     "anio": 1498,
     "conquistador": "Cristóbal Colón",
     "region": "Venezuela",
-    "evento": "Llegada a la costa continental de América del Sur."
+    "evento": "Llega a la costa continental de América del Sur."
   },
   {
     "anio": 1513,
     "conquistador": "Vasco Núñez de Balboa",
     "region": "Panamá",
-    "evento": "Descubrimiento del Océano Pacífico desde el Istmo."
+    "evento": "Descubre el océano Pacífico cruzando el Istmo."
   },
   {
     "anio": 1519,
@@ -33,240 +33,480 @@
     "anio": 1521,
     "conquistador": "Hernán Cortés",
     "region": "Tenochtitlán",
-    "evento": "Caída del Imperio Azteca y fundación de Ciudad de México."
+    "evento": "Caída del Imperio Azteca."
   },
   {
     "anio": 1532,
     "conquistador": "Francisco Pizarro",
     "region": "Perú",
-    "evento": "Captura de Atahualpa e inicio de la conquista inca."
+    "evento": "Captura de Atahualpa en Cajamarca."
   },
   {
     "anio": 1540,
     "conquistador": "Pedro de Valdivia",
     "region": "Chile",
-    "evento": "Conquista del territorio mapuche y fundación de Santiago."
+    "evento": "Fundación de Santiago de Nueva Extremadura."
   },
   {
     "anio": 1542,
     "conquistador": "Francisco de Orellana",
     "region": "Amazonas",
-    "evento": "Descubrimiento del río Amazonas."
+    "evento": "Expedición por el río Amazonas."
   },
   {
     "anio": 1550,
-    "conquistador": "Conquistador 10",
-    "region": "Región 10",
-    "evento": "Evento histórico relevante del año 1550."
-  },
-  {
-    "anio": 1551,
-    "conquistador": "Conquistador 11",
-    "region": "Región 11",
-    "evento": "Evento histórico relevante del año 1551."
+    "conquistador": "Conquistador 1550",
+    "region": "Región 1550",
+    "evento": "Evento histórico registrado en el año 1550."
   },
   {
     "anio": 1552,
-    "conquistador": "Conquistador 12",
-    "region": "Región 12",
-    "evento": "Evento histórico relevante del año 1552."
-  },
-  {
-    "anio": 1553,
-    "conquistador": "Conquistador 13",
-    "region": "Región 13",
-    "evento": "Evento histórico relevante del año 1553."
+    "conquistador": "Conquistador 1552",
+    "region": "Región 1552",
+    "evento": "Evento histórico registrado en el año 1552."
   },
   {
     "anio": 1554,
-    "conquistador": "Conquistador 14",
-    "region": "Región 14",
-    "evento": "Evento histórico relevante del año 1554."
-  },
-  {
-    "anio": 1555,
-    "conquistador": "Conquistador 15",
-    "region": "Región 15",
-    "evento": "Evento histórico relevante del año 1555."
+    "conquistador": "Conquistador 1554",
+    "region": "Región 1554",
+    "evento": "Evento histórico registrado en el año 1554."
   },
   {
     "anio": 1556,
-    "conquistador": "Conquistador 16",
-    "region": "Región 16",
-    "evento": "Evento histórico relevante del año 1556."
-  },
-  {
-    "anio": 1557,
-    "conquistador": "Conquistador 17",
-    "region": "Región 17",
-    "evento": "Evento histórico relevante del año 1557."
+    "conquistador": "Conquistador 1556",
+    "region": "Región 1556",
+    "evento": "Evento histórico registrado en el año 1556."
   },
   {
     "anio": 1558,
-    "conquistador": "Conquistador 18",
-    "region": "Región 18",
-    "evento": "Evento histórico relevante del año 1558."
-  },
-  {
-    "anio": 1559,
-    "conquistador": "Conquistador 19",
-    "region": "Región 19",
-    "evento": "Evento histórico relevante del año 1559."
+    "conquistador": "Conquistador 1558",
+    "region": "Región 1558",
+    "evento": "Evento histórico registrado en el año 1558."
   },
   {
     "anio": 1560,
-    "conquistador": "Conquistador 20",
-    "region": "Región 20",
-    "evento": "Evento histórico relevante del año 1560."
-  },
-  {
-    "anio": 1561,
-    "conquistador": "Conquistador 21",
-    "region": "Región 21",
-    "evento": "Evento histórico relevante del año 1561."
+    "conquistador": "Conquistador 1560",
+    "region": "Región 1560",
+    "evento": "Evento histórico registrado en el año 1560."
   },
   {
     "anio": 1562,
-    "conquistador": "Conquistador 22",
-    "region": "Región 22",
-    "evento": "Evento histórico relevante del año 1562."
-  },
-  {
-    "anio": 1563,
-    "conquistador": "Conquistador 23",
-    "region": "Región 23",
-    "evento": "Evento histórico relevante del año 1563."
+    "conquistador": "Conquistador 1562",
+    "region": "Región 1562",
+    "evento": "Evento histórico registrado en el año 1562."
   },
   {
     "anio": 1564,
-    "conquistador": "Conquistador 24",
-    "region": "Región 24",
-    "evento": "Evento histórico relevante del año 1564."
-  },
-  {
-    "anio": 1565,
-    "conquistador": "Conquistador 25",
-    "region": "Región 25",
-    "evento": "Evento histórico relevante del año 1565."
+    "conquistador": "Conquistador 1564",
+    "region": "Región 1564",
+    "evento": "Evento histórico registrado en el año 1564."
   },
   {
     "anio": 1566,
-    "conquistador": "Conquistador 26",
-    "region": "Región 26",
-    "evento": "Evento histórico relevante del año 1566."
-  },
-  {
-    "anio": 1567,
-    "conquistador": "Conquistador 27",
-    "region": "Región 27",
-    "evento": "Evento histórico relevante del año 1567."
+    "conquistador": "Conquistador 1566",
+    "region": "Región 1566",
+    "evento": "Evento histórico registrado en el año 1566."
   },
   {
     "anio": 1568,
-    "conquistador": "Conquistador 28",
-    "region": "Región 28",
-    "evento": "Evento histórico relevante del año 1568."
-  },
-  {
-    "anio": 1569,
-    "conquistador": "Conquistador 29",
-    "region": "Región 29",
-    "evento": "Evento histórico relevante del año 1569."
+    "conquistador": "Conquistador 1568",
+    "region": "Región 1568",
+    "evento": "Evento histórico registrado en el año 1568."
   },
   {
     "anio": 1570,
-    "conquistador": "Conquistador 30",
-    "region": "Región 30",
-    "evento": "Evento histórico relevante del año 1570."
-  },
-  {
-    "anio": 1571,
-    "conquistador": "Conquistador 31",
-    "region": "Región 31",
-    "evento": "Evento histórico relevante del año 1571."
+    "conquistador": "Conquistador 1570",
+    "region": "Región 1570",
+    "evento": "Evento histórico registrado en el año 1570."
   },
   {
     "anio": 1572,
-    "conquistador": "Conquistador 32",
-    "region": "Región 32",
-    "evento": "Evento histórico relevante del año 1572."
-  },
-  {
-    "anio": 1573,
-    "conquistador": "Conquistador 33",
-    "region": "Región 33",
-    "evento": "Evento histórico relevante del año 1573."
+    "conquistador": "Conquistador 1572",
+    "region": "Región 1572",
+    "evento": "Evento histórico registrado en el año 1572."
   },
   {
     "anio": 1574,
-    "conquistador": "Conquistador 34",
-    "region": "Región 34",
-    "evento": "Evento histórico relevante del año 1574."
-  },
-  {
-    "anio": 1575,
-    "conquistador": "Conquistador 35",
-    "region": "Región 35",
-    "evento": "Evento histórico relevante del año 1575."
+    "conquistador": "Conquistador 1574",
+    "region": "Región 1574",
+    "evento": "Evento histórico registrado en el año 1574."
   },
   {
     "anio": 1576,
-    "conquistador": "Conquistador 36",
-    "region": "Región 36",
-    "evento": "Evento histórico relevante del año 1576."
-  },
-  {
-    "anio": 1577,
-    "conquistador": "Conquistador 37",
-    "region": "Región 37",
-    "evento": "Evento histórico relevante del año 1577."
+    "conquistador": "Conquistador 1576",
+    "region": "Región 1576",
+    "evento": "Evento histórico registrado en el año 1576."
   },
   {
     "anio": 1578,
-    "conquistador": "Conquistador 38",
-    "region": "Región 38",
-    "evento": "Evento histórico relevante del año 1578."
-  },
-  {
-    "anio": 1579,
-    "conquistador": "Conquistador 39",
-    "region": "Región 39",
-    "evento": "Evento histórico relevante del año 1579."
+    "conquistador": "Conquistador 1578",
+    "region": "Región 1578",
+    "evento": "Evento histórico registrado en el año 1578."
   },
   {
     "anio": 1580,
-    "conquistador": "Conquistador 40",
-    "region": "Región 40",
-    "evento": "Evento histórico relevante del año 1580."
-  },
-  {
-    "anio": 1581,
-    "conquistador": "Conquistador 41",
-    "region": "Región 41",
-    "evento": "Evento histórico relevante del año 1581."
+    "conquistador": "Conquistador 1580",
+    "region": "Región 1580",
+    "evento": "Evento histórico registrado en el año 1580."
   },
   {
     "anio": 1582,
-    "conquistador": "Conquistador 42",
-    "region": "Región 42",
-    "evento": "Evento histórico relevante del año 1582."
-  },
-  {
-    "anio": 1583,
-    "conquistador": "Conquistador 43",
-    "region": "Región 43",
-    "evento": "Evento histórico relevante del año 1583."
+    "conquistador": "Conquistador 1582",
+    "region": "Región 1582",
+    "evento": "Evento histórico registrado en el año 1582."
   },
   {
     "anio": 1584,
-    "conquistador": "Conquistador 44",
-    "region": "Región 44",
-    "evento": "Evento histórico relevante del año 1584."
+    "conquistador": "Conquistador 1584",
+    "region": "Región 1584",
+    "evento": "Evento histórico registrado en el año 1584."
   },
   {
-    "anio": 1585,
-    "conquistador": "Conquistador 45",
-    "region": "Región 45",
-    "evento": "Evento histórico relevante del año 1585."
+    "anio": 1586,
+    "conquistador": "Conquistador 1586",
+    "region": "Región 1586",
+    "evento": "Evento histórico registrado en el año 1586."
+  },
+  {
+    "anio": 1588,
+    "conquistador": "Conquistador 1588",
+    "region": "Región 1588",
+    "evento": "Evento histórico registrado en el año 1588."
+  },
+  {
+    "anio": 1590,
+    "conquistador": "Conquistador 1590",
+    "region": "Región 1590",
+    "evento": "Evento histórico registrado en el año 1590."
+  },
+  {
+    "anio": 1592,
+    "conquistador": "Conquistador 1592",
+    "region": "Región 1592",
+    "evento": "Evento histórico registrado en el año 1592."
+  },
+  {
+    "anio": 1594,
+    "conquistador": "Conquistador 1594",
+    "region": "Región 1594",
+    "evento": "Evento histórico registrado en el año 1594."
+  },
+  {
+    "anio": 1596,
+    "conquistador": "Conquistador 1596",
+    "region": "Región 1596",
+    "evento": "Evento histórico registrado en el año 1596."
+  },
+  {
+    "anio": 1598,
+    "conquistador": "Conquistador 1598",
+    "region": "Región 1598",
+    "evento": "Evento histórico registrado en el año 1598."
+  },
+  {
+    "anio": 1600,
+    "conquistador": "Conquistador 1600",
+    "region": "Región 1600",
+    "evento": "Evento histórico registrado en el año 1600."
+  },
+  {
+    "anio": 1602,
+    "conquistador": "Conquistador 1602",
+    "region": "Región 1602",
+    "evento": "Evento histórico registrado en el año 1602."
+  },
+  {
+    "anio": 1604,
+    "conquistador": "Conquistador 1604",
+    "region": "Región 1604",
+    "evento": "Evento histórico registrado en el año 1604."
+  },
+  {
+    "anio": 1606,
+    "conquistador": "Conquistador 1606",
+    "region": "Región 1606",
+    "evento": "Evento histórico registrado en el año 1606."
+  },
+  {
+    "anio": 1608,
+    "conquistador": "Conquistador 1608",
+    "region": "Región 1608",
+    "evento": "Evento histórico registrado en el año 1608."
+  },
+  {
+    "anio": 1610,
+    "conquistador": "Conquistador 1610",
+    "region": "Región 1610",
+    "evento": "Evento histórico registrado en el año 1610."
+  },
+  {
+    "anio": 1612,
+    "conquistador": "Conquistador 1612",
+    "region": "Región 1612",
+    "evento": "Evento histórico registrado en el año 1612."
+  },
+  {
+    "anio": 1614,
+    "conquistador": "Conquistador 1614",
+    "region": "Región 1614",
+    "evento": "Evento histórico registrado en el año 1614."
+  },
+  {
+    "anio": 1616,
+    "conquistador": "Conquistador 1616",
+    "region": "Región 1616",
+    "evento": "Evento histórico registrado en el año 1616."
+  },
+  {
+    "anio": 1618,
+    "conquistador": "Conquistador 1618",
+    "region": "Región 1618",
+    "evento": "Evento histórico registrado en el año 1618."
+  },
+  {
+    "anio": 1620,
+    "conquistador": "Conquistador 1620",
+    "region": "Región 1620",
+    "evento": "Evento histórico registrado en el año 1620."
+  },
+  {
+    "anio": 1622,
+    "conquistador": "Conquistador 1622",
+    "region": "Región 1622",
+    "evento": "Evento histórico registrado en el año 1622."
+  },
+  {
+    "anio": 1624,
+    "conquistador": "Conquistador 1624",
+    "region": "Región 1624",
+    "evento": "Evento histórico registrado en el año 1624."
+  },
+  {
+    "anio": 1626,
+    "conquistador": "Conquistador 1626",
+    "region": "Región 1626",
+    "evento": "Evento histórico registrado en el año 1626."
+  },
+  {
+    "anio": 1628,
+    "conquistador": "Conquistador 1628",
+    "region": "Región 1628",
+    "evento": "Evento histórico registrado en el año 1628."
+  },
+  {
+    "anio": 1630,
+    "conquistador": "Conquistador 1630",
+    "region": "Región 1630",
+    "evento": "Evento histórico registrado en el año 1630."
+  },
+  {
+    "anio": 1632,
+    "conquistador": "Conquistador 1632",
+    "region": "Región 1632",
+    "evento": "Evento histórico registrado en el año 1632."
+  },
+  {
+    "anio": 1634,
+    "conquistador": "Conquistador 1634",
+    "region": "Región 1634",
+    "evento": "Evento histórico registrado en el año 1634."
+  },
+  {
+    "anio": 1636,
+    "conquistador": "Conquistador 1636",
+    "region": "Región 1636",
+    "evento": "Evento histórico registrado en el año 1636."
+  },
+  {
+    "anio": 1638,
+    "conquistador": "Conquistador 1638",
+    "region": "Región 1638",
+    "evento": "Evento histórico registrado en el año 1638."
+  },
+  {
+    "anio": 1640,
+    "conquistador": "Conquistador 1640",
+    "region": "Región 1640",
+    "evento": "Evento histórico registrado en el año 1640."
+  },
+  {
+    "anio": 1642,
+    "conquistador": "Conquistador 1642",
+    "region": "Región 1642",
+    "evento": "Evento histórico registrado en el año 1642."
+  },
+  {
+    "anio": 1644,
+    "conquistador": "Conquistador 1644",
+    "region": "Región 1644",
+    "evento": "Evento histórico registrado en el año 1644."
+  },
+  {
+    "anio": 1646,
+    "conquistador": "Conquistador 1646",
+    "region": "Región 1646",
+    "evento": "Evento histórico registrado en el año 1646."
+  },
+  {
+    "anio": 1648,
+    "conquistador": "Conquistador 1648",
+    "region": "Región 1648",
+    "evento": "Evento histórico registrado en el año 1648."
+  },
+  {
+    "anio": 1650,
+    "conquistador": "Conquistador 1650",
+    "region": "Región 1650",
+    "evento": "Evento histórico registrado en el año 1650."
+  },
+  {
+    "anio": 1652,
+    "conquistador": "Conquistador 1652",
+    "region": "Región 1652",
+    "evento": "Evento histórico registrado en el año 1652."
+  },
+  {
+    "anio": 1654,
+    "conquistador": "Conquistador 1654",
+    "region": "Región 1654",
+    "evento": "Evento histórico registrado en el año 1654."
+  },
+  {
+    "anio": 1656,
+    "conquistador": "Conquistador 1656",
+    "region": "Región 1656",
+    "evento": "Evento histórico registrado en el año 1656."
+  },
+  {
+    "anio": 1658,
+    "conquistador": "Conquistador 1658",
+    "region": "Región 1658",
+    "evento": "Evento histórico registrado en el año 1658."
+  },
+  {
+    "anio": 1660,
+    "conquistador": "Conquistador 1660",
+    "region": "Región 1660",
+    "evento": "Evento histórico registrado en el año 1660."
+  },
+  {
+    "anio": 1662,
+    "conquistador": "Conquistador 1662",
+    "region": "Región 1662",
+    "evento": "Evento histórico registrado en el año 1662."
+  },
+  {
+    "anio": 1664,
+    "conquistador": "Conquistador 1664",
+    "region": "Región 1664",
+    "evento": "Evento histórico registrado en el año 1664."
+  },
+  {
+    "anio": 1666,
+    "conquistador": "Conquistador 1666",
+    "region": "Región 1666",
+    "evento": "Evento histórico registrado en el año 1666."
+  },
+  {
+    "anio": 1668,
+    "conquistador": "Conquistador 1668",
+    "region": "Región 1668",
+    "evento": "Evento histórico registrado en el año 1668."
+  },
+  {
+    "anio": 1670,
+    "conquistador": "Conquistador 1670",
+    "region": "Región 1670",
+    "evento": "Evento histórico registrado en el año 1670."
+  },
+  {
+    "anio": 1672,
+    "conquistador": "Conquistador 1672",
+    "region": "Región 1672",
+    "evento": "Evento histórico registrado en el año 1672."
+  },
+  {
+    "anio": 1674,
+    "conquistador": "Conquistador 1674",
+    "region": "Región 1674",
+    "evento": "Evento histórico registrado en el año 1674."
+  },
+  {
+    "anio": 1676,
+    "conquistador": "Conquistador 1676",
+    "region": "Región 1676",
+    "evento": "Evento histórico registrado en el año 1676."
+  },
+  {
+    "anio": 1678,
+    "conquistador": "Conquistador 1678",
+    "region": "Región 1678",
+    "evento": "Evento histórico registrado en el año 1678."
+  },
+  {
+    "anio": 1680,
+    "conquistador": "Conquistador 1680",
+    "region": "Región 1680",
+    "evento": "Evento histórico registrado en el año 1680."
+  },
+  {
+    "anio": 1682,
+    "conquistador": "Conquistador 1682",
+    "region": "Región 1682",
+    "evento": "Evento histórico registrado en el año 1682."
+  },
+  {
+    "anio": 1684,
+    "conquistador": "Conquistador 1684",
+    "region": "Región 1684",
+    "evento": "Evento histórico registrado en el año 1684."
+  },
+  {
+    "anio": 1686,
+    "conquistador": "Conquistador 1686",
+    "region": "Región 1686",
+    "evento": "Evento histórico registrado en el año 1686."
+  },
+  {
+    "anio": 1688,
+    "conquistador": "Conquistador 1688",
+    "region": "Región 1688",
+    "evento": "Evento histórico registrado en el año 1688."
+  },
+  {
+    "anio": 1690,
+    "conquistador": "Conquistador 1690",
+    "region": "Región 1690",
+    "evento": "Evento histórico registrado en el año 1690."
+  },
+  {
+    "anio": 1692,
+    "conquistador": "Conquistador 1692",
+    "region": "Región 1692",
+    "evento": "Evento histórico registrado en el año 1692."
+  },
+  {
+    "anio": 1694,
+    "conquistador": "Conquistador 1694",
+    "region": "Región 1694",
+    "evento": "Evento histórico registrado en el año 1694."
+  },
+  {
+    "anio": 1696,
+    "conquistador": "Conquistador 1696",
+    "region": "Región 1696",
+    "evento": "Evento histórico registrado en el año 1696."
+  },
+  {
+    "anio": 1698,
+    "conquistador": "Conquistador 1698",
+    "region": "Región 1698",
+    "evento": "Evento histórico registrado en el año 1698."
+  },
+  {
+    "anio": 1700,
+    "conquistador": "Conquistador 1700",
+    "region": "Región 1700",
+    "evento": "Evento histórico registrado en el año 1700."
   }
 ]

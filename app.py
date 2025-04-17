@@ -1,51 +1,37 @@
+
 import streamlit as st
 import json
-import os
-from PIL import UnidentifiedImageError
+import folium
+from streamlit_folium import st_folium
 
-# Título
-st.title("Hispanoamérica 1492–1700")
+st.set_page_config(layout="wide")
+st.title("Progresión de la conquista hispana en América (1492–1700)")
 
-# Cargar eventos desde archivo
-try:
-    with open("data/timeline.json", "r", encoding="utf-8") as f:
-        eventos = json.load(f)
-except FileNotFoundError:
-    st.error("❌ No se encontró el archivo 'data/timeline.json'.")
-    st.stop()
+# Cargar zonas conquistadas
+with open("zonas_conquista.geojson", "r", encoding="utf-8") as f:
+    geojson_data = json.load(f)
 
-# Controlar que haya eventos
-if not eventos:
-    st.warning("⚠️ No hay eventos disponibles en el archivo.")
-    st.stop()
-
-# Slider de años
-años = sorted(set(e["anio"] for e in eventos))
+# Obtener años únicos ordenados
+años = sorted(set(feat["properties"]["año_conquista"] for feat in geojson_data["features"]))
 año_sel = st.slider("Selecciona un año", min_value=min(años), max_value=max(años), step=1)
 
-# Mostrar eventos del año
-st.subheader(f"Resumen del año {año_sel}")
-eventos_año = [e for e in eventos if e["anio"] == año_sel]
+# Crear mapa base
+m = folium.Map(location=[10, -70], zoom_start=3, tiles="CartoDB positron")
 
-if eventos_año:
-    for ev in eventos_año:
-        st.markdown(f"### {ev['conquistador']} — *{ev['region']}*")
-        st.write(ev["evento"])
+# Filtrar zonas por año
+for feature in geojson_data["features"]:
+    año = feature["properties"]["año_conquista"]
+    if año <= año_sel:
+        folium.GeoJson(
+            feature,
+            tooltip=feature["properties"]["region"],
+            style_function=lambda x: {
+                "fillColor": "#ffcc00",
+                "color": "black",
+                "weight": 1,
+                "fillOpacity": 0.6,
+            }
+        ).add_to(m)
 
-        # Imagen del conquistador
-        img_path = f"assets/conquistadores/{ev['conquistador'].replace(' ', '_').lower()}.jpg"
-        if os.path.exists(img_path):
-            try:
-                st.image(img_path, caption=ev["conquistador"], width=200)
-            except UnidentifiedImageError:
-                st.warning(f"⚠️ No se pudo mostrar la imagen de {ev['conquistador']}.")
-
-        # Bandera de la región
-        flag_path = f"assets/banderas/{ev['region'].replace(' ', '_').lower()}.png"
-        if os.path.exists(flag_path):
-            try:
-                st.image(flag_path, caption=ev["region"], width=100)
-            except UnidentifiedImageError:
-                st.warning(f"⚠️ No se pudo mostrar la bandera de {ev['region']}.")
-else:
-    st.info("ℹ️ No hay eventos registrados para este año.")
+st.markdown(f"### Zonas conquistadas hasta {año_sel}")
+st_data = st_folium(m, width=1200, height=600)

@@ -1,0 +1,345 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Antillas",
+        "a\u00f1o_conquista": 1492
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0,
+              20.0
+            ],
+            [
+              -70.0,
+              20.0
+            ],
+            [
+              -70.0,
+              18.0
+            ],
+            [
+              -74.0,
+              18.0
+            ],
+            [
+              -74.0,
+              20.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "M\u00e9xico",
+        "a\u00f1o_conquista": 1521
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -101.0,
+              20.0
+            ],
+            [
+              -98.0,
+              20.0
+            ],
+            [
+              -98.0,
+              18.0
+            ],
+            [
+              -101.0,
+              18.0
+            ],
+            [
+              -101.0,
+              20.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Per\u00fa",
+        "a\u00f1o_conquista": 1533
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.5,
+              -11.5
+            ],
+            [
+              -72.5,
+              -11.5
+            ],
+            [
+              -72.5,
+              -14.5
+            ],
+            [
+              -75.5,
+              -14.5
+            ],
+            [
+              -75.5,
+              -11.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Guatemala",
+        "a\u00f1o_conquista": 1524
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.0,
+              15.5
+            ],
+            [
+              -89.0,
+              15.5
+            ],
+            [
+              -89.0,
+              14.0
+            ],
+            [
+              -91.0,
+              14.0
+            ],
+            [
+              -91.0,
+              15.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Chile",
+        "a\u00f1o_conquista": 1541
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.7,
+              -32.5
+            ],
+            [
+              -69.5,
+              -32.5
+            ],
+            [
+              -69.5,
+              -34.0
+            ],
+            [
+              -71.7,
+              -34.0
+            ],
+            [
+              -71.7,
+              -32.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Panam\u00e1",
+        "a\u00f1o_conquista": 1513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              9.5
+            ],
+            [
+              -78.0,
+              9.5
+            ],
+            [
+              -78.0,
+              8.0
+            ],
+            [
+              -80.0,
+              8.0
+            ],
+            [
+              -80.0,
+              9.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "R\u00edo de la Plata",
+        "a\u00f1o_conquista": 1536
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.0,
+              -33.0
+            ],
+            [
+              -57.0,
+              -33.0
+            ],
+            [
+              -57.0,
+              -35.0
+            ],
+            [
+              -59.0,
+              -35.0
+            ],
+            [
+              -59.0,
+              -33.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Venezuela",
+        "a\u00f1o_conquista": 1498
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0,
+              10.5
+            ],
+            [
+              -64.0,
+              10.5
+            ],
+            [
+              -64.0,
+              8.5
+            ],
+            [
+              -68.0,
+              8.5
+            ],
+            [
+              -68.0,
+              10.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Nueva Granada",
+        "a\u00f1o_conquista": 1538
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.0,
+              6.0
+            ],
+            [
+              -72.0,
+              6.0
+            ],
+            [
+              -72.0,
+              4.0
+            ],
+            [
+              -75.0,
+              4.0
+            ],
+            [
+              -75.0,
+              6.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Amazonas",
+        "a\u00f1o_conquista": 1542
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.0,
+              -3.0
+            ],
+            [
+              -60.0,
+              -3.0
+            ],
+            [
+              -60.0,
+              -6.0
+            ],
+            [
+              -64.0,
+              -6.0
+            ],
+            [
+              -64.0,
+              -3.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
