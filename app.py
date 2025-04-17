@@ -12,8 +12,7 @@ with open("zonas_conquista.geojson", "r", encoding="utf-8") as f:
     geojson_data = json.load(f)
 
 # Obtener años únicos ordenados
-años = sorted(set(feat["properties"]["año_conquista"] for feat in geojson_data["features"]))
-año_sel = st.slider("Selecciona un año", min_value=min(años), max_value=max(años), step=1)
+año_sel = st.slider("Selecciona un año", min_value=1492, max_value=1700, step=1)
 
 # Crear mapa base
 m = folium.Map(location=[10, -70], zoom_start=3, tiles="CartoDB positron")
