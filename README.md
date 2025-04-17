@@ -1,1 +1,2 @@
-# hispanoamerica_1700
+# Hispanoamérica 1492–1700
+App histórica educativa desplegable en Streamlit.
