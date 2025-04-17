@@ -21,7 +21,12 @@ if eventos_año:
         img_path = f"assets/conquistadores/{ev['conquistador'].replace(' ', '_').lower()}.jpg"
         flag_path = f"assets/banderas/{ev['region'].replace(' ', '_').lower()}.png"
         if os.path.exists(img_path):
-            st.image(img_path, caption=ev["conquistador"], width=200)
+            from PIL import UnidentifiedImageError
+try:
+    st.image(img_path, caption=ev["conquistador"], width=200)
+except UnidentifiedImageError:
+    st.warning(f"No se pudo mostrar la imagen de {ev['conquistador']}.")
+
         if os.path.exists(flag_path):
             st.image(flag_path, caption=ev["region"], width=100)
 else:
